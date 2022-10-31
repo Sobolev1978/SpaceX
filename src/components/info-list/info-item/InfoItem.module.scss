@@ -9,6 +9,7 @@
   width: 180px;
   height: 180px;
   margin-bottom: 10px;
+  align-items: center;
 
   @media (max-width: 550px) {
     width: 140px;
@@ -31,6 +32,15 @@
     line-height: 60px;
     color: #fff;
     font-family: MuseoSansCyrl700, sans-serif;
+    display: flex;
+    align-items: baseline;
+
+    i {
+      font-style: normal;
+      font-size: 13px;
+      line-height: 13px;
+      margin-left: 3px;
+    }
 
     @media (max-width: 550px) {
       font-size: 40px;

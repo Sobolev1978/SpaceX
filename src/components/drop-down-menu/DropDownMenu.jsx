@@ -19,7 +19,7 @@ const DropDownMenu = ({active, onClose}) => {
             {links.map(link => (
               <NavBarItem
                 onClose={onClose}
-                link={link}
+                label={link.label}
                 key={link.label}
                 className={style.link}
               />

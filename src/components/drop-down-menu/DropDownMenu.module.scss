@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 0;
     box-sizing: border-box;
     align-items: center;
 
@@ -55,8 +55,11 @@
     color: #fff;
     font-size: 16px;
     line-height: 22px;
-    padding-bottom: 8px;
     width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #fff;
+    display: block;
+    padding: 10px 0;
 
     &:hover {
       color: #b2b2b2;
@@ -73,7 +76,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 300;
 
   @media (max-width: 768px) {
@@ -88,15 +91,28 @@
     background-color: #001929;
     transition: all 0.5s ease;
     animation: dropOut 0.5s;
+
+    button {
+      display: block;
+      width: 100%;
+    }
   }
 }
 
 @keyframes dropOut {
-  0% {transform: translateX(-100%);}
-  100% {transform: translateX(0);}
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes dropIn {
-  100% {transform: translateX(100%);}
-  0% {transform: translateX(0%);}
+  100% {
+    transform: translateX(100%);
+  }
+  0% {
+    transform: translateX(0%);
+  }
 }
