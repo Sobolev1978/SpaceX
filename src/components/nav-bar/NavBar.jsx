@@ -12,7 +12,7 @@ const NavBar = () => {
         {
           links.map(link => (
             <NavBarItem
-              link={link}
+              label={link.label}
               key={link.label}
               className={style.link}
             />
