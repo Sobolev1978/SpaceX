@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a4c349b.css",
-    "main.js": "/static/js/main.edd8f7f6.js",
-    "static/media/main-bg.jpg": "/static/media/main-bg.a738f6b29f5914fa580e.jpg",
-    "static/media/museo-sans-cyrl-700.svg": "/static/media/museo-sans-cyrl-700.38d4a433cec37206ffa6.svg",
-    "static/media/museo-sans-cyrl-300.svg": "/static/media/museo-sans-cyrl-300.07690083eb0cd243d8d5.svg",
-    "static/media/museo-sans-cyrl-100.svg": "/static/media/museo-sans-cyrl-100.90fc1e801f9557186d71.svg",
-    "static/media/museo-sans-cyrl-300.otf": "/static/media/museo-sans-cyrl-300.3278bb431d0d2aea6710.otf",
-    "static/media/museo-sans-cyrl-100.otf": "/static/media/museo-sans-cyrl-100.aefb21f5e6d8c37e135e.otf",
-    "static/media/museo-sans-cyrl-300.eot": "/static/media/museo-sans-cyrl-300.d703e5f50fe38074f441.eot",
-    "static/media/museo-sans-cyrl-100.eot": "/static/media/museo-sans-cyrl-100.a81e9e427547b8d835e2.eot",
-    "static/media/museo-sans-cyrl-700.eot": "/static/media/museo-sans-cyrl-700.c3e02fef93dcecf5f838.eot",
-    "static/media/mobile-bg.jpg": "/static/media/mobile-bg.bd32a6b6a515f832e07b.jpg",
-    "static/media/museo-sans-cyrl-700.woff": "/static/media/museo-sans-cyrl-700.dc451b871dde9f3ee65b.woff",
-    "static/media/museo-sans-cyrl-300.woff": "/static/media/museo-sans-cyrl-300.991b6234c3c901535982.woff",
-    "static/media/museo-sans-cyrl-100.woff": "/static/media/museo-sans-cyrl-100.e30e5ac97e186314a1ab.woff",
-    "static/media/museo-sans-cyrl-700.woff2": "/static/media/museo-sans-cyrl-700.68f84f8600978ea45be3.woff2",
-    "static/media/museo-sans-cyrl-300.woff2": "/static/media/museo-sans-cyrl-300.df21d98575a394bb860c.woff2",
-    "static/media/museo-sans-cyrl-100.woff2": "/static/media/museo-sans-cyrl-100.5bd02c2a45e6bf3b266a.woff2",
-    "index.html": "/index.html",
-    "main.0a4c349b.css.map": "/static/css/main.0a4c349b.css.map",
-    "main.edd8f7f6.js.map": "/static/js/main.edd8f7f6.js.map"
+    "main.css": "/spacex/static/css/main.c430cf16.css",
+    "main.js": "/spacex/static/js/main.7b711d33.js",
+    "static/media/main-bg.jpg": "/spacex/static/media/main-bg.a738f6b29f5914fa580e.jpg",
+    "static/media/museo-sans-cyrl-700.svg": "/spacex/static/media/museo-sans-cyrl-700.38d4a433cec37206ffa6.svg",
+    "static/media/museo-sans-cyrl-300.svg": "/spacex/static/media/museo-sans-cyrl-300.07690083eb0cd243d8d5.svg",
+    "static/media/museo-sans-cyrl-100.svg": "/spacex/static/media/museo-sans-cyrl-100.90fc1e801f9557186d71.svg",
+    "static/media/museo-sans-cyrl-300.otf": "/spacex/static/media/museo-sans-cyrl-300.3278bb431d0d2aea6710.otf",
+    "static/media/museo-sans-cyrl-100.otf": "/spacex/static/media/museo-sans-cyrl-100.aefb21f5e6d8c37e135e.otf",
+    "static/media/museo-sans-cyrl-300.eot": "/spacex/static/media/museo-sans-cyrl-300.d703e5f50fe38074f441.eot",
+    "static/media/museo-sans-cyrl-100.eot": "/spacex/static/media/museo-sans-cyrl-100.a81e9e427547b8d835e2.eot",
+    "static/media/museo-sans-cyrl-700.eot": "/spacex/static/media/museo-sans-cyrl-700.c3e02fef93dcecf5f838.eot",
+    "static/media/mobile-bg.jpg": "/spacex/static/media/mobile-bg.bd32a6b6a515f832e07b.jpg",
+    "static/media/museo-sans-cyrl-700.woff": "/spacex/static/media/museo-sans-cyrl-700.dc451b871dde9f3ee65b.woff",
+    "static/media/museo-sans-cyrl-300.woff": "/spacex/static/media/museo-sans-cyrl-300.991b6234c3c901535982.woff",
+    "static/media/museo-sans-cyrl-100.woff": "/spacex/static/media/museo-sans-cyrl-100.e30e5ac97e186314a1ab.woff",
+    "static/media/museo-sans-cyrl-700.woff2": "/spacex/static/media/museo-sans-cyrl-700.68f84f8600978ea45be3.woff2",
+    "static/media/museo-sans-cyrl-300.woff2": "/spacex/static/media/museo-sans-cyrl-300.df21d98575a394bb860c.woff2",
+    "static/media/museo-sans-cyrl-100.woff2": "/spacex/static/media/museo-sans-cyrl-100.5bd02c2a45e6bf3b266a.woff2",
+    "index.html": "/spacex/index.html",
+    "main.c430cf16.css.map": "/spacex/static/css/main.c430cf16.css.map",
+    "main.7b711d33.js.map": "/spacex/static/js/main.7b711d33.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a4c349b.css",
-    "static/js/main.edd8f7f6.js"
+    "static/css/main.c430cf16.css",
+    "static/js/main.7b711d33.js"
   ]
 }
