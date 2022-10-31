@@ -31,6 +31,15 @@
     line-height: 60px;
     color: #fff;
     font-family: MuseoSansCyrl700, sans-serif;
+    display: flex;
+    align-items: baseline;
+
+    i {
+      font-size: 13px;
+      line-height: 13px;
+      font-style: normal;
+        margin-left: 3px;
+    }
 
     @media (max-width: 550px) {
       font-size: 40px;
