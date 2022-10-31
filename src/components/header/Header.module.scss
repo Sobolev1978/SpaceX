@@ -1,0 +1,88 @@
+.mainHeader {
+  height: 100px;
+  border-bottom: 1px solid #312e36;
+
+  @media (max-width: 550px) {
+    height: 70px;
+  }
+
+  .headerBlock {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .logoBlock {
+    position: relative;
+    border: 1px solid #312e36;
+    width: 316px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 550px) {
+      width: 230px;
+      height: 70px;
+    }
+
+    .leftTop {
+      width: 7px;
+      height: 7px;
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      border-left: 1px solid #fff;
+      border-top: 1px solid #fff;
+    }
+
+    .leftBottom {
+      width: 7px;
+      height: 7px;
+      position: absolute;
+      left: -1px;
+      bottom: -1px;
+      border-left: 1px solid #fff;
+      border-top: 1px solid #fff;
+      transform: rotate(-90deg);
+    }
+
+    .rightTop {
+      width: 7px;
+      height: 7px;
+      position: absolute;
+      right: -1px;
+      top: -1px;
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+    }
+
+    .rightBottom {
+      width: 7px;
+      height: 7px;
+      position: absolute;
+      right: -1px;
+      bottom: -1px;
+      border-right: 1px solid #fff;
+      border-top: 1px solid #fff;
+      transform: rotate(90deg);
+    }
+
+    @media (max-width: 550px) {
+      img {
+        background-size: contain;
+        width: auto;
+        height: 27px;
+      }
+    }
+  }
+
+  .burgerBlock {
+    display: none;
+
+    @media (max-width: 1000px) {
+      display: block;
+    }
+  }
+}
+

@@ -1,0 +1,51 @@
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 370px;
+
+
+  @media (max-width: 550px) {
+    width: 290px;
+  }
+
+  div:nth-child(1) {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+
+    &:hover {
+      border-bottom: 1px solid #54585f;
+      border-right: 1px solid #54585f;
+      background: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    }
+  }
+
+  div:nth-child(2) {
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+
+    &:hover {
+      border-left: 1px solid #54585f;
+      border-bottom: 1px solid #54585f;
+      background: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    }
+  }
+
+  div:nth-child(3) {
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+
+    &:hover {
+      border-right: 1px solid #54585f;
+      border-top: 1px solid #54585f;
+      background: linear-gradient(to top right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    }
+  }
+
+  div:nth-child(4) {
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+
+    &:hover {
+      border-left: 1px solid #54585f;
+      border-top: 1px solid #54585f;
+      background: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3));
+    }
+  }
+}
