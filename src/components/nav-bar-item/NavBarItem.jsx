@@ -1,12 +1,14 @@
 import React from 'react';
 import cn from "classnames";
 
-const NavBarItem = ({label, href, className}) => {
+const NavBarItem = ({label, href, className, onClose}) => {
 
   return (
-    <a href={href} className={cn(className)}>
-      {label}
-    </a>
+   <button type="button" onClick={onClose}>
+     <a href={href} className={cn(className)}>
+       {label}
+     </a>
+   </button>
   );
 };
 
