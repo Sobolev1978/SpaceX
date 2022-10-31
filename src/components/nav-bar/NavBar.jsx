@@ -1,7 +1,7 @@
 import React from 'react';
-import {useMenu} from "../../hooks/useMenu";
-import NavBarItem from "../NavBarItem/NavBarItem";
+import NavBarItem from "../nav-bar-item/NavBarItem";
 import style from './NavBar.module.scss'
+import {useMenu} from "../../moks-data/useMenu";
 
 const NavBar = () => {
   const links = useMenu()

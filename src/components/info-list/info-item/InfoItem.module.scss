@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 20px 15px 30px;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 10px;
+
+  @media (max-width: 550px) {
+    width: 140px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    font-family: MuseoSansCyrl100, sans-serif;
+
+    @media (max-width: 550px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-family: MuseoSansCyrl700, sans-serif;
+
+    @media (max-width: 550px) {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    font-family: MuseoSansCyrl100, sans-serif;
+
+    @media (max-width: 550px) {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink, useLocation} from 'react-router-dom';
 import cn from 'classnames';
 
-const NavBarItem = ({link, activeClassName, className, wrapperClassName}) => {
+const NavBarItem = ({link, activeClassName, onClose, className, wrapperClassName}) => {
 
   const {pathname} = useLocation()
   const {label, href} = link
@@ -12,7 +12,7 @@ const NavBarItem = ({link, activeClassName, className, wrapperClassName}) => {
   return (
     <div className={wrapperClassName}>
       <NavLink to={href}>
-        <button type="button" className={linkClassName}>
+        <button type="button" className={linkClassName} onClick={onClose}>
           {label}
         </button>
       </NavLink>

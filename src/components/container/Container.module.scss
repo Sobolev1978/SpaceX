@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  width: 96%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  @media (max-width: 1000px) {
+    position: static;
+  }
+}
