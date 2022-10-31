@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spacex/static/css/main.f9abdf95.css",
-    "main.js": "/spacex/static/js/main.7b711d33.js",
+    "main.css": "/spacex/static/css/main.3ce46017.css",
+    "main.js": "/spacex/static/js/main.682c7ef0.js",
     "static/media/main-bg.jpg": "/spacex/static/media/main-bg.a738f6b29f5914fa580e.jpg",
     "static/media/museo-sans-cyrl-700.svg": "/spacex/static/media/museo-sans-cyrl-700.38d4a433cec37206ffa6.svg",
     "static/media/museo-sans-cyrl-300.svg": "/spacex/static/media/museo-sans-cyrl-300.07690083eb0cd243d8d5.svg",
@@ -19,11 +19,11 @@
     "static/media/museo-sans-cyrl-300.woff2": "/spacex/static/media/museo-sans-cyrl-300.df21d98575a394bb860c.woff2",
     "static/media/museo-sans-cyrl-100.woff2": "/spacex/static/media/museo-sans-cyrl-100.5bd02c2a45e6bf3b266a.woff2",
     "index.html": "/spacex/index.html",
-    "main.f9abdf95.css.map": "/spacex/static/css/main.f9abdf95.css.map",
-    "main.7b711d33.js.map": "/spacex/static/js/main.7b711d33.js.map"
+    "main.3ce46017.css.map": "/spacex/static/css/main.3ce46017.css.map",
+    "main.682c7ef0.js.map": "/spacex/static/js/main.682c7ef0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9abdf95.css",
-    "static/js/main.7b711d33.js"
+    "static/css/main.3ce46017.css",
+    "static/js/main.682c7ef0.js"
   ]
 }
